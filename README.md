@@ -30,5 +30,5 @@ docker build -t python-demo-app .
 # 3. Execute o container
 docker run --rm python-demo-app
 
-___
-📘 Projeto para fins de estudo e demonstração de boas práticas DevOps.
+---
+> 📘 Projeto para fins de estudo e demonstração de boas práticas DevOps.

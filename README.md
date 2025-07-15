@@ -25,10 +25,13 @@ git clone https://github.com/gabrieldsinfo/python-docker-ci-actions.git
 cd python-docker-ci-actions
 
 # 2. Construa a imagem Docker
-docker build -t python-demo-app .
+docker build -t name-image .
 
 # 3. Execute o container
-docker run --rm python-demo-app
+docker run --rm name-image
+
+# 4. Veja a saída no terminal:
+# Aplicação Python rodando em container com sucesso!
 ```
 
 ---

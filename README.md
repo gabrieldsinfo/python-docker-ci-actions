@@ -11,3 +11,24 @@ A proposta aqui é estruturar um ambiente automatizado que constrói e executa a
 - Workflow no GitHub Actions que:
   - Faz build da imagem
   - Executa o container para validação
+
+---
+
+### Como executar localmente
+
+> **Pré-requisitos:**  
+> Docker instalado em sua máquina
+
+```bash
+# 1. Clone este repositório
+git clone https://github.com/gabrieldsinfo/python-docker-ci-actions.git
+cd python-docker-ci-actions
+
+# 2. Construa a imagem Docker
+docker build -t python-demo-app .
+
+# 3. Execute o container
+docker run --rm python-demo-app
+
+___
+📘 Projeto para fins de estudo e demonstração de boas práticas DevOps.

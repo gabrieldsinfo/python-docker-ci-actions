@@ -31,7 +31,7 @@ docker build -t name-image .
 docker run --rm name-image
 
 # 4. Veja a saída no terminal:
-# Aplicação Python rodando em container com sucesso!
+Aplicação Python rodando em container com sucesso!
 ```
 
 ---

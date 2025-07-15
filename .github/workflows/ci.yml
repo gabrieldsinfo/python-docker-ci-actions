@@ -1,0 +1,21 @@
+name: Python Docker CI Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: build docker image
+        run: docker build -t python-docker-ci-actions-image .
+
+      - name: run docker container
+        run: docker run python-docker-ci-actions-image
+      

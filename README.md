@@ -1,4 +1,4 @@
-# Python + Docker + CI + Actions
+# Projeto Python-Docker-CI-Actions
 
 Este projeto demonstra a criação de uma aplicação Python containerizada com Docker, com pipeline de integração contínua via GitHub Actions.
 
